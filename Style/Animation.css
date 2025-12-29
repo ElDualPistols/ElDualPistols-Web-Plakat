@@ -1,0 +1,56 @@
+@keyframes scale-photo{
+0%{
+    height: 20px;
+}
+100%{
+    height: 170px;
+}
+}
+
+@keyframes scale-text{
+    0%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 240px;
+    }
+}
+
+@keyframes transport-one {
+    0%{
+        position: absolute;
+        top: 40px;
+        left: 409px;
+        height: 250px;
+    }
+    100%{
+        position: absolute;
+        top: 40px;
+        left: 260px;
+        height: 100px;
+    }
+}
+
+@keyframes transport-two {
+    0%{
+        position: absolute;
+        top: 40px;
+        right: 424px;
+        height: 250px;
+    }
+    100%{
+        position: absolute;
+        right: 270px;
+        top: 170px;
+        height: 100px;
+    }
+}
+
+@keyframes rotation {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
