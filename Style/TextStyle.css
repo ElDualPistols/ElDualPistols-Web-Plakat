@@ -87,6 +87,99 @@ h1 {
     top: 385px;
 
 }
+#euro-two{
+    left: 970px;
+    top: 1525px;
+}
+#dollar-two{
+    left: 375px;
+    top: 1590px;
+}
+#yen-two{
+    left: 145px;
+    top: 1185px;
+
+}
+.arrow{
+    position: absolute;
+    top: 752px;
+    left: 500px;
+    height: 900px;
+}
+.hero{
+    position: absolute;
+    top: 1185px;
+    left: 920px;
+    height: 320px;
+    animation: hero_rotate 4s 0s infinite ease-in-out;
+}
+.logo {
+    position: absolute;
+    top: 700px;
+    left: 760px;
+    width: 250px;
+    animation: logo_fall 2s 0s infinite ease-in;
+    animation-delay: 0.5s;
+}
+.text_in_box{
+    position: absolute;
+    rotate: -42deg;
+    font-size: 60px;
+    text-align: center;
+    left: 0px;
+    top: 830px;
+    animation: text_box 10s 0s infinite ease;
+}
+.border_box{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-color: #ACFFA4;
+}
+#box_fly_one{
+    top: 1300px;
+    left: 280px;
+}
+#box_fly_two{
+    top: 1400px;
+    left: 700px;
+}
+.border_proj{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #ACFFA4;
+}
+#proj_one{
+    top: 1350px;
+    left: 280px;
+    animation: fly_proj_one 0.5s 0s infinite linear;
+}
+#proj_two{
+    top: 1350px;
+    left: 330px;
+    animation: fly_proj_two 0.6s 0s infinite linear;
+}
+#proj_three{
+    top: 1350px;
+    left: 305px;
+    animation: fly_proj_theree 0.4s 0s infinite linear;
+}
+#proj_four{
+    top: 1450px;
+    left: 700px;
+    animation: fly_proj_four 0.4s 0s infinite linear;
+}
+#proj_five{
+    top: 1450px;
+    left: 750px;
+    animation: fly_proj_five 0.3s 0s infinite linear;
+}
+#proj_six{
+    top: 1450px;
+    left: 725px;
+    animation: fly_proj_six 0.6s 0s infinite linear;
+}
 .image-in-box{
     height: 100%;
     width: 100%;
