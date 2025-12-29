@@ -1,3 +1,4 @@
+@import url('../Style/Animation.css');
 * {
     padding: 0;
     margin: 0;
@@ -8,8 +9,104 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Pixelizer";
-    background-color: rgb(193, 223, 187);
+    background: url('../Style/Photo/image_2025-12-29_12-03-05.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: #262F24;
 }
 p {
     color: rgb(250, 250, 250);
+}
+h1 {
+    color: rgb(250, 250, 250);
+    font-size: 250px;
+}
+.title-photo{
+    height: 20px;
+    margin-right: 15px;
+    animation: scale-photo 1s 3s ease-out;
+    animation-fill-mode: forwards;
+}
+.title-block{
+    margin-top: 50px;
+    background: url('../Style/Photo/image_2025-12-29_12-40-25.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 350px;
+    position: relative;
+}
+.title-text{
+    font-size: 20px;
+    animation: scale-text 1s 3s ease-out;
+    animation-fill-mode: forwards;
+}
+.title-triangle-one
+{
+    position: absolute;
+    top: 40px;
+    left: 409px;
+    height: 250px;
+    animation: transport-one 1s 3s ease-out;
+    animation-fill-mode: forwards;
+}
+.title-triangle-two
+{
+    position: absolute;
+    top: 40px;
+    right: 424px;
+    height: 250px;
+    animation: transport-two 1s 3s ease-out;
+    animation-fill-mode: forwards;
+}
+.image-box{
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+.money {
+    position: absolute;
+    height: 100px;
+    animation: rotation 2s 0s infinite ease-out;
+}
+#euro-one{
+    left: 120px;
+    top: 45px;
+}
+#dollar-one{
+    left: 720px;
+    top: -35px;
+}
+#yen-one{
+    left: 920px;
+    top: 385px;
+
+}
+.image-in-box{
+    height: 100%;
+    width: 100%;
+}
+.bottom-box{
+    margin-top: 70px;
+}
+.image-in-bottom{
+    margin-left: 512px;
+    width: 270px;
+}
+.bottom-text-box{
+    display: flex;
+    padding-top: 10px;
+}
+.bottom-text-left{
+    font-size: 70px;
+    margin-left: 20px;
+}
+.bottom-text-right{
+    font-size: 70px;
+    margin-left: 730px;
 }
