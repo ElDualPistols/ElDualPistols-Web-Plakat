@@ -54,3 +54,129 @@
         rotate: 360deg;
     }
 }
+
+@keyframes hero_rotate {
+    0%{
+        transform-origin: top left;
+        rotate: 0deg;
+    }
+    33%{
+        transform-origin: top left;
+        rotate: 10deg;
+    }
+    66%{
+        transform-origin: top left;
+        rotate: -2deg;
+    }
+    100%{
+        transform-origin: top left;
+        rotate: 0deg;
+    }
+}
+
+@keyframes logo_fall {
+    0%{
+    top: 700px;
+    left: 760px;
+    rotate: 0deg;
+    }
+    33%{
+        top: 880px;
+        left: 760px;
+        rotate: 0deg;
+    }
+    66%{
+        top: 900px;
+        left: 800px;
+        rotate: 120deg;
+    }
+    99%{
+        top: 700px;
+        left: 760px;
+        rotate: -360deg;
+    }
+}
+
+@keyframes text_box {
+    0%{
+        font-size: 60px;
+    }
+    50%{
+        font-size: 42px;
+    }
+    100%{
+        font-size: 60px;
+    }
+}
+
+@keyframes fly_proj_one{
+0%{
+    top: 1350px;
+    left: 280px;
+}
+100%{
+    top: 1420px;
+    left: 280px;
+    scale: 0;
+}
+}
+
+@keyframes fly_proj_two{
+0%{
+    top: 1350px;
+    left: 330px;
+}
+100%{
+    top: 1420px;
+    left: 330px;
+    scale: 0;
+}
+}
+
+@keyframes fly_proj_theree{
+0%{
+    top: 1350px;
+    left: 305px;
+}
+100%{
+    top: 1420px;
+    left: 305px;
+    scale: 0;
+}
+}
+
+@keyframes fly_proj_four{
+0%{
+    top: 1450px;
+    left: 700px;
+}
+100%{
+    top: 1550px;
+    left: 700px;
+    scale: 0;
+}
+}
+
+@keyframes fly_proj_five{
+0%{
+    top: 1450px;
+    left: 750px;
+}
+100%{
+    top: 1550px;
+    left: 750px;
+    scale: 0;
+}
+}
+
+@keyframes fly_proj_six{
+0%{
+    top: 1450px;
+    left: 725px;
+}
+100%{
+    top: 1550px;
+    left: 725px;
+    scale: 0;
+}
+}
